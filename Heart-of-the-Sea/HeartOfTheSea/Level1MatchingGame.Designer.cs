@@ -68,7 +68,6 @@
             this.MinimizeBox = false;
             this.Name = "Level1MatchingGame";
             this.Text = "HearOfTheSea";
-            this.Load += new System.EventHandler(this.Level1MatchingGame_Load);
             ((System.ComponentModel.ISupportInitialize)(this.button_pause)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
