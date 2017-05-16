@@ -11,10 +11,6 @@ namespace HeartOfTheSea.Tests
     [TestClass()]
     public class CardTests
     {
-        [TestMethod()]
-        public void CardTest()
-        {
-            Assert.Fail();
-        }
+       
     }
 }

@@ -33,9 +33,6 @@ D:\Heart-of-the-Sea\HeartOfTheSea\obj\Debug\HeartOfTheSea.csproj.GenerateResourc
 D:\Heart-of-the-Sea\HeartOfTheSea\obj\Debug\HeartOfTheSea.exe
 D:\Heart-of-the-Sea\HeartOfTheSea\obj\Debug\HeartOfTheSea.pdb
 D:\Heart-of-the-Sea\HeartOfTheSea\obj\Debug\HeartOfTheSea.csprojResolveAssemblyReference.cache
-F:\Renish\Heart-of-the-Sea\Heart-of-the-Sea\HeartOfTheSea\obj\Debug\HeartOfTheSea.csprojResolveAssemblyReference.cache
-F:\Renish\Heart-of-the-Sea\Heart-of-the-Sea\HeartOfTheSea\obj\Debug\HeartOfTheSea.Level1MatchingGame.resources
-F:\Renish\Heart-of-the-Sea\Heart-of-the-Sea\HeartOfTheSea\obj\Debug\HeartOfTheSea.Properties.Resources.resources
-F:\Renish\Heart-of-the-Sea\Heart-of-the-Sea\HeartOfTheSea\obj\Debug\HeartOfTheSea.csproj.GenerateResource.Cache
-F:\Renish\Heart-of-the-Sea\Heart-of-the-Sea\HeartOfTheSea\obj\Debug\HeartOfTheSea.exe
-F:\Renish\Heart-of-the-Sea\Heart-of-the-Sea\HeartOfTheSea\obj\Debug\HeartOfTheSea.pdb
+D:\New folder (3)\Heart-of-the-Sea\HeartOfTheSea\bin\Debug\HeartOfTheSea.exe.config
+D:\New folder (3)\Heart-of-the-Sea\HeartOfTheSea\obj\Debug\HeartOfTheSea.exe
+D:\New folder (3)\Heart-of-the-Sea\HeartOfTheSea\obj\Debug\HeartOfTheSea.pdb

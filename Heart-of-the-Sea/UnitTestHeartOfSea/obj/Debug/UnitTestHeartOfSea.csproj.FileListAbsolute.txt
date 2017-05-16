@@ -1,0 +1,9 @@
+D:\Heart-of-the-Sea\UnitTestHeartOfSea\obj\Debug\UnitTestHeartOfSea.csprojResolveAssemblyReference.cache
+D:\Heart-of-the-Sea\UnitTestHeartOfSea\bin\Debug\UnitTestHeartOfSea.dll
+D:\Heart-of-the-Sea\UnitTestHeartOfSea\bin\Debug\UnitTestHeartOfSea.pdb
+D:\Heart-of-the-Sea\UnitTestHeartOfSea\bin\Debug\HeartOfTheSea.exe
+D:\Heart-of-the-Sea\UnitTestHeartOfSea\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Heart-of-the-Sea\UnitTestHeartOfSea\bin\Debug\HeartOfTheSea.pdb
+D:\Heart-of-the-Sea\UnitTestHeartOfSea\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Heart-of-the-Sea\UnitTestHeartOfSea\obj\Debug\UnitTestHeartOfSea.dll
+D:\Heart-of-the-Sea\UnitTestHeartOfSea\obj\Debug\UnitTestHeartOfSea.pdb

@@ -19,15 +19,10 @@ namespace HeartOfTheSea
         public Level1MatchingGame()
         {
             InitializeComponent();
-            DeploymentScreen deploy = new DeploymentScreen(this);
-            deploy.AddControls();
-        }
-
-        private void Level1MatchingGame_Load(object sender, EventArgs e)
-        {
            
         }
 
+       
        
 
        
