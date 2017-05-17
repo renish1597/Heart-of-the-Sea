@@ -33,8 +33,8 @@ namespace HeartOfTheSea
         {
             this.Hide();
             levelOneEasy = new Level1MatchingGame();
-            levelOneEasy.Show();
-           // this.Close();
+            levelOneEasy.ShowDialog();
+            this.Close();
         }
 
         private void button_medium_Click(object sender, EventArgs e)

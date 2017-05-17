@@ -12,6 +12,7 @@ namespace HeartOfTheSea
 {
     public partial class PauseForm : Form
     {
+        Level1MatchingGame game;
         public PauseForm()
         {
             InitializeComponent();
@@ -24,7 +25,12 @@ namespace HeartOfTheSea
 
         private void button_Mainmenu_Click(object sender, EventArgs e)
         {
+            //game = new Level1MatchingGame();
+            //game.Hide();
 
+            //LevelMenu lm1 = new LevelMenu();
+            //lm1.ShowDialog();
+            //this.Close();
         }
 
         private void label1_Click(object sender, EventArgs e)

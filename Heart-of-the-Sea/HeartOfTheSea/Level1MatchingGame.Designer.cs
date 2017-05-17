@@ -54,6 +54,7 @@
             this.button_pause.Size = new System.Drawing.Size(38, 36);
             this.button_pause.TabIndex = 6;
             this.button_pause.TabStop = false;
+            this.button_pause.Click += new System.EventHandler(this.button_pause_Click_1);
             // 
             // Level1MatchingGame
             // 
