@@ -46,7 +46,39 @@ namespace HeartOfTheSea.Tests
             dep.ExecuteTimer2();
             Assert.AreEqual(10, dep.Score);
 
+
         }
+
+        [TestMethod()]
+      public void CheckScoreNotSame()
+         {
+          DeploymentScreen dep = new DeploymentScreen();
+             dep.AddControls();
+             Card card1 = new Card(1);
+             Card card2 = new Card(2);
+ 
+             dep.CheckCards(card1);
+             dep.CheckCards(card2);
+ 
+             dep.ExecuteTimer1();
+             Assert.AreNotEqual(10, dep.Score);
+         }
+
+ 
+         [TestMethod()]
+         public void CheckClickTwice()
+         {
+             DeploymentScreen dep = new DeploymentScreen();
+             dep.AddControls();
+             Card card1 = new Card(1);
+ 
+             dep.CheckCards(card1);
+             dep.CheckCards(card1);
+
+            dep.ExecuteTimer2();
+ 
+             Assert.AreEqual(0, dep.Score);
+         }
 
     }
 }
