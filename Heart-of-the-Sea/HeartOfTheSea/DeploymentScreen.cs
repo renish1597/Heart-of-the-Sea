@@ -348,5 +348,21 @@ namespace HeartOfTheSea
                 return;
             }
         }
+
+        public bool FirstClickedVisible
+        {
+            get
+            {
+                return _firstClicked.Visible == true;
+            }
+        }
+
+        public bool SecondClickedVisible
+        {
+            get
+            {
+                return _secondClicked.Visible == true;
+            }
+        }
     }
 }

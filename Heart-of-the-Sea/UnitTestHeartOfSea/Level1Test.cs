@@ -80,6 +80,21 @@ namespace HeartOfTheSea.Tests
              Assert.AreEqual(0, dep.Score);
          }
 
+
+        [TestMethod()]
+        //when user clicks on same card twice the score should not increment
+        public void WhenSameCardClick()
+        {
+            DeploymentScreen dep = new DeploymentScreen();
+            dep.AddControls();
+            Card card1 = new Card(1);
+
+            dep.CheckCards(card1);
+            dep.CheckCards(card1);
+            dep.ExecuteTimer2();
+            Assert.AreEqual(true, dep.FirstClickedVisible);
+            Assert.AreEqual(null, dep.SecondClicked);
+        }
     }
 }
 
