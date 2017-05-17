@@ -60,7 +60,7 @@ namespace HeartOfTheSea.Tests
              dep.CheckCards(card1);
              dep.CheckCards(card2);
  
-             dep.ExecuteTimer2();
+             dep.ExecuteTimer1();
              Assert.AreNotEqual(10, dep.Score);
          }
 
@@ -74,6 +74,8 @@ namespace HeartOfTheSea.Tests
  
              dep.CheckCards(card1);
              dep.CheckCards(card1);
+
+            dep.ExecuteTimer2();
  
              Assert.AreEqual(0, dep.Score);
          }
