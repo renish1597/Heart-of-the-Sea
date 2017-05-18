@@ -300,17 +300,26 @@ namespace HeartOfTheSea
             else if (SecondClicked == null)
             {
                 _secondClicked = cardClicked;
-                if (Convert.ToInt32(_firstClicked.Tag) == Convert.ToInt32(_secondClicked.Tag))
+                if (_firstClicked.Tag != _secondClicked.Tag)
                 {
-                    flipTimer2.Enabled = true;
-                    flipTimer2.Start();
+                  
+                    if (Convert.ToInt32(_firstClicked.Tag) == Convert.ToInt32(_secondClicked.Tag))
+                    {
+                        flipTimer2.Enabled = true;
+                        flipTimer2.Start();
+                    }
+                    else
+                    {
+                        flipTimer.Enabled = true;
+                        flipTimer.Start();
+
+                    }
                 }
                 else
                 {
-                    flipTimer.Enabled = true;
-                    flipTimer.Start();
-
+                    _secondClicked = null;
                 }
+                
             }
         }
         private void flipTimer_Tick(object sender, EventArgs e)
@@ -335,17 +344,20 @@ namespace HeartOfTheSea
         public void ExecuteTimer2()
         {
             flipTimer2.Stop();
-            _firstClicked.Visible = false;
-            _secondClicked.Visible = false;
-            _firstClicked = null;
-            _secondClicked = null;
-            _score = _score + 10;
-            _scoreValue.Text = Score.ToString();
-            _count++;
-            if (_count == 8)
+            if (_firstClicked != null && _secondClicked != null)
             {
-                MessageBox.Show("You won the level. Now you own a heart of sacrifice");
-                return;
+                _firstClicked.Visible = false;
+                _secondClicked.Visible = false;
+                _firstClicked = null;
+                _secondClicked = null;
+                _score = _score + 10;
+                _scoreValue.Text = Score.ToString();
+                _count++;
+                if (_count == 8)
+                {
+                    MessageBox.Show("You won the level. Now you own a heart of sacrifice");
+                    return;
+                }
             }
         }
 
