@@ -73,6 +73,16 @@ namespace HeartOfTheSea.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3_fun_easter_eggs_from_disney_s_moana_revealed_12371441 {
+            get {
+                object obj = ResourceManager.GetObject("3-fun-easter-eggs-from-disney-s-moana-revealed-12371441", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap card1 {
             get {
                 object obj = ResourceManager.GetObject("card1", resourceCulture);
@@ -153,9 +163,49 @@ namespace HeartOfTheSea.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Disney_Moana_Movie {
+            get {
+                object obj = ResourceManager.GetObject("Disney-Moana-Movie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fireworks {
+            get {
+                object obj = ResourceManager.GetObject("fireworks", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fireworks2 {
+            get {
+                object obj = ResourceManager.GetObject("Fireworks2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap heartLevel1 {
             get {
                 object obj = ResourceManager.GetObject("heartLevel1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hearts {
+            get {
+                object obj = ResourceManager.GetObject("hearts", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,6 +256,16 @@ namespace HeartOfTheSea.Properties {
         internal static System.Drawing.Bitmap pauseIcon {
             get {
                 object obj = ResourceManager.GetObject("pauseIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap winLevel1 {
+            get {
+                object obj = ResourceManager.GetObject("winLevel1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

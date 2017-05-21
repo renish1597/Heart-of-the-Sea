@@ -16,5 +16,18 @@ namespace HeartOfTheSea
         {
             InitializeComponent();
         }
+
+        private void LevelWin_Load(object sender, EventArgs e)
+        {
+         
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            this.Close();
+            LevelMenu ll = new LevelMenu();
+            ll.ShowDialog();
+        }
     }
 }
