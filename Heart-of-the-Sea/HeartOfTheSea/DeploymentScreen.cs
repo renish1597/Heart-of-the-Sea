@@ -355,8 +355,10 @@ namespace HeartOfTheSea
                 _count++;
                 if (_count == 8)
                 {
-                    MessageBox.Show("You won the level. Now you own a heart of sacrifice");
-                    return;
+                    _windowsForm.Hide();
+                    _windowsForm.Close();
+                    LevelWin levelDone = new LevelWin();
+                    levelDone.ShowDialog();
                 }
             }
         }
