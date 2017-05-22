@@ -1,21 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    tools:context="com.android.perera.malaka.heartofthesea.GameActivityEasy"
+    android:background="@android:color/white">
 
 
-    <GridLayout
-        android:id="@+id/gridLayout_4by4"
+    <include
+        layout="@layout/images"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv_p1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:columnCount="4"
-        android:rowCount="4"
-        tools:context="com.android.perera.malaka.heartofthesea_game.GameEasyActivity">
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="22dp"
+        android:textSize="32dp"
+        android:text="SCORE: 0" />
 
+    <ImageButton
+        android:id="@+id/ib_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="16dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/round_button"
+        android:src="@android:drawable/ic_media_pause"/>
 
-    </GridLayout>
-</LinearLayout>
+</RelativeLayout>
