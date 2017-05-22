@@ -5,12 +5,16 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.HeartOfTheSea PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HeartOfTheSea\DeploymentScreen.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HeartOfTheSea\LevelMenu.cs">
     <Files>
       <File FileName="HeartOfTheSea\Program.cs" Line="1" Column="1" />
       <File FileName="HeartOfTheSea\Level1MatchingGame.cs" Line="13" Column="49" />
       <File FileName="HeartOfTheSea\Card.cs" Line="1" Column="1" />
-      <File FileName="HeartOfTheSea\DeploymentScreen.cs" Line="1" Column="1" />
+      <File FileName="HeartOfTheSea\DeploymentScreen.cs" Line="383" Column="1" />
+      <File FileName="UnitTestHeartOfSea\CardTests.cs" Line="1" Column="1" />
+      <File FileName="UnitTestHeartOfSea\Level1Test.cs" Line="18" Column="27" />
+      <File FileName="HeartOfTheSea\LevelWin.cs" Line="1" Column="1" />
+      <File FileName="HeartOfTheSea\LevelMenu.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />

@@ -4,4 +4,7 @@
     <string name="level_menu_easy">Easy</string>
     <string name="new_game">New Game</string>
     <string name="main_menu">Main Menu</string>
+    <string name="message">Congratulations!</string>
+    <string name="pause_message">Game is paused!</string>
+    <string name="resume_button">Resume</string>
 </resources>

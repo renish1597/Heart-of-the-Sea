@@ -6,19 +6,25 @@
     android:layout_height="match_parent"
     android:gravity="center_vertical|center"
     android:orientation="vertical"
-    tools:context="com.android.perera.malaka.heartofthesea.MenuActivity">
+    tools:context="com.android.perera.malaka.heartofthesea.MenuActivity"
+    android:background="@drawable/winlevel1">
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="120dp"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="@string/title_game"
-        android:textSize="30sp" />
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp" />
 
     <Button
         android:id="@+id/button_easy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/level_menu_easy" />
+        android:text="@string/level_menu_easy"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"/>
 
 </LinearLayout>
