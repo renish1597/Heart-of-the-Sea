@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:340286069141:android:c58ac5739f40b98f",
         "android_client_info": {
-          "package_name": "com.android.perera.malaka.heartofthesea_game"
+          "package_name": "com.android.perera.malaka.heartofthesea"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "340286069141-71jcjs76cpfft4u4feauknq0slrhv231.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.android.perera.malaka.heartofthesea_game",
+            "package_name": "com.android.perera.malaka.heartofthesea",
             "certificate_hash": "ae047f74db65fdb7dc8817f07cce2e7afbdb5c9f"
           }
         },
